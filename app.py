@@ -46,7 +46,7 @@ if user_input:
         st.markdown(user_input)
      ##short term memory
     response = client.models.generate_content(
-        model="gemini-2.0-flash",
+        model="gemini-2.5-flash",
         contents= list(map(lambda message: message["role"]+ 
         message["content"], st.session_state.messages ))
     )
