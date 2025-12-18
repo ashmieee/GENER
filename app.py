@@ -20,7 +20,7 @@ st.title("Ai Chatbot")
 from google import genai
 from dotenv import load_dotenv
 import os
-client = genai.Client(api_key="AIzaSyC_Mr95SLQ61qdbAizCCnWIfzkhdmbtYi4")
+client = genai.Client(api_key="AIzaSyBGB6JZlqGv1pl0jXN60vWNBxWef-gydPU")
 
 if "messages" not in st.session_state:
     st.session_state.messages = [
